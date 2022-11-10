@@ -1,0 +1,12 @@
+1. Does the change inside increment_int_a change the variable a after the function call?
+
+    no
+
+2. Does the change inside increment_int_b change the variable b after the function call?
+
+    yes
+
+3. If they differ answer why? if not why not?
+    Python passes objects by reference. The list is an object and therefore the items in the list can be 
+    modified. On the other hand, primitive types are passed by value. Best way to modify by value is to use
+    "return x".  
